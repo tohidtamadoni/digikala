@@ -1,0 +1,89 @@
+div.amazing2 {
+  width: 80%;
+  height: 110px;
+  border-radius: 10px;
+  background-color: #eef1f0;
+  margin: -50px 12% 0 10%;
+  box-sizing: border-box;
+  padding: 20px;
+  vertical-align: auto;
+}
+div.amazing2 > img {
+  vertical-align: middle;
+}
+div.amazing2 > svg {
+  vertical-align: middle;
+  width: 250px;
+}
+div.amazing2 > p {
+  display: inline-block;
+  background-color: #39ae00;
+  width: 100px;
+  margin-right: 30px;
+  font-family: digifont;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+}
+div.amazing2 > div.story2 {
+  width: auto;
+  height: 150px;
+  background-color: width(219, 236, 232);
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 70px;
+}
+div.story2 > div {
+  display: inline-block;
+  margin: 0;
+  font-family: digifont;
+  color: #4b4b4b;
+  font-size: 12px;
+}
+div.story2 > div > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+div.bish {
+  width: 130px;
+  height: 50px;
+  vertical-align: middle;
+  background-color: white;
+  display: inline-block;
+  margin-right: 20px;
+  border-radius: 30px;
+  align-items: center;
+}
+div.bish > p {
+  color: #39ae00;
+  text-align: center;
+
+  font-family: digifont;
+  padding: 10px;
+  font-weight: lighter;
+  font-size: 13px;
+  margin-top: 5px;
+}
+div.four {
+  width: 90%;
+  height: 230px;
+
+  margin: 20px 110px;
+  align-items: center;
+}
+div.four > div {
+  width: 300px;
+  height: inherit;
+  display: inline-block;
+  margin-right: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+div.four > div > img {
+  object-fit: cover;
+  width: inherit;
+  border-radius: 30px;
+}

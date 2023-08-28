@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: digifont;
+  src: url(../fonts/iranyekanwebbold.cfb6e26c.woff2);
+}
+div.wrapper {
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: digifont;
+  src: url(../fonts/iranyekanwebbold.cfb6e26c.woff2);
+}
+div.form {
+  width: 25vw;
+  height: 60vh;
+  box-sizing: border-box;
+  margin: 20vh auto;
+
+  font-family: digifont;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+}
+div.form > div.logo2 svg {
+  width: 50%;
+  height: auto;
+  margin: 30px 23%;
+}
+div.form > div.login > a.register {
+  display: inline-block;
+  height: 40px;
+  width: 135px;
+  font-family: digifont;
+  text-align: center;
+
+  line-height: 40px;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-size: 18px;
+  word-spacing: normal;
+  font-weight: bold;
+}
+div.form > p {
+  font-size: 12px;
+  margin-right: 20px;
+  font-weight: normal;
+  color: #5b5b5b;
+}
+input[name="username"] {
+  width: 84%;
+  height: 45px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  margin: 10px 8% 0 8%;
+}
+input[type="submit"] {
+  width: 86%;
+  height: 48px;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  margin: 30px 8% 0 8%;
+
+  font-family: digifont;
+  color: whitesmoke;
+  background-color: crimson;
+}
+div.form > p.this {
+  width: inherit;
+  margin: 20px 10px;
+}

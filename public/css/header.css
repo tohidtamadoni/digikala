@@ -1,0 +1,378 @@
+header {
+  width: 100%;
+  height: 170px;
+  /* background-color: #2b2b2b;*/
+  box-shadow: 0 2px lightgray;
+}
+header > div.top {
+  width: inherit;
+  height: 60px;
+}
+div.top > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+div.bottom {
+  width: inherit;
+  height: 110px;
+}
+div.bottom > div.bottomtop {
+  width: inherit;
+  height: 70px;
+  vertical-align: top;
+}
+div.bottom > div.bottomtop > div.logo {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  /* padding-top: 20px;
+  box-sizing: border-box;
+*/
+}
+
+div.bottom > div.bottomtop > div.login {
+  width: 15%;
+  height: inherit;
+
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+div.bottom > div.bottomtop > div.logo > svg {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 25px auto;
+}
+div.bottom > div.bottomtop > div.logo > svg g {
+  fill: crimson;
+}
+
+div.bottom > div.bottomtop > div.search {
+  width: 70%;
+  height: inherit;
+  /*background-color: rgb(40, 20, 220);*/
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+}
+div.bottom > div.bottomtop > div.search > div.serchicon {
+  width: 5%;
+  height: inherit;
+  display: inline-block;
+  background-color: #f1f2f4;
+}
+
+div.bottom > div.bottomtop > div.search > div > input {
+  width: 50%;
+  height: 65%;
+  margin-top: 10px;
+  font-family: digifont;
+  outline: unset;
+  border-radius: 10px;
+  border: unset;
+  padding: 20px;
+  background-color: #f1f2f4;
+  vertical-align: top;
+}
+
+div.bottom > div.bottomtop > div.search > div > input ::placeholder {
+  font-size: 12px;
+  font-family: digifont;
+  font-weight: bold;
+}
+div.bottom > div.bottomtop > div.login > a.register {
+  display: inline-block;
+  height: 40px;
+  width: 135px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 15px;
+  line-height: 40px;
+  text-decoration: none;
+  font-family: digifont;
+  color: black;
+  font-size: 12px;
+  word-spacing: normal;
+  font-weight: bold;
+}
+div.bottom > div.bottomtop > div.login > span {
+  display: inline-block;
+  font-size: 25px;
+  color: lightgray;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+div.bottom > div.bottomtop > div.login > a.shop {
+  display: inline-block;
+  color: black;
+
+  vertical-align: middle;
+}
+div.login {
+  position: absolute;
+  left: 0;
+}
+div.bottombottom {
+  width: 100%;
+  height: 40px;
+}
+div.bottombottom > nav {
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+div.bottombottom > nav > div {
+  display: inline-block;
+  width: fit-content;
+  margin: 10px 10px 10px 20px;
+  border: unset;
+  font-size: 12px;
+  font-family: digifont;
+  text-decoration: none;
+}
+div.bottombottom > nav > div:hover {
+  transition: 100ms;
+  border-bottom: 3px solid crimson;
+}
+div.bottombottom > nav > div > a {
+  text-decoration: none;
+  display: block;
+  color: #4b4b4b;
+}
+div.shahr > a {
+  position: absolute;
+  left: 30px;
+  color: #584078;
+  word-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+div.bottombottom > nav > div.submenu {
+  font-weight: bold;
+  font-size: medium;
+  font-size: 14px;
+}
+div.bottombottom > nav > div.submenu > div.submenu1 {
+  width: 95vw;
+  background-color: white;
+  height: 550px;
+  position: absolute;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+  margin: 10px;
+  box-shadow: 0px 30px 100px lightgray;
+  display: none;
+}
+div.bottombottom > nav > div.submenu:hover > div.submenu1 {
+  display: block;
+}
+div.bottombottom > nav > div.submenu > div.submenu1 > div {
+  width: 12.5%;
+  height: inherit;
+  background-color: white;
+  height: calc(100% / 12);
+  margin: 0 10px;
+  border-left: 1px solid lightgray;
+}
+div.bottombottom > nav > div.submenu > div.submenu1 > div > div {
+  width: 80%;
+  height: 550px;
+  position: absolute;
+  background-color: black;
+  right: 184px;
+  top: 0;
+  margin: 0 10px;
+  border-left: 1px solid lightgray;
+  display: none;
+}
+div.bottombottom > nav > div.submenu > div.submenu1 > div:hover > div {
+  display: block;
+}
+div.bottombottom > nav > div.submenu > div.submenu1 > div > a {
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  color: #4b4b4b;
+  font-size: 13px;
+  padding-top: 10px;
+}
+div.bottombottom > nav > div.submenu > div.submenu1 > div:hover {
+  background-color: lightgray;
+}
+div.dastebandi > h2 {
+  font-family: digifont;
+  text-align: center;
+}
+
+div.dastebandi > div.story2 {
+  width: 100%;
+  height: 150px;
+  background-color: width(219, 236, 232);
+  text-align: center;
+}
+div.dastebandi > div.story2 > div {
+  display: inline-block;
+  width: auto;
+  font-family: digifont;
+  color: #4b4b4b;
+  font-size: 12px;
+}
+div.dastebandi > div.story2 > div > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20px 40px 10px 40px;
+
+  outline-offset: 4px;
+}
+div.two {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+div.two > div {
+  margin: 0 10px;
+  width: 40%;
+  height: inherit;
+  display: inline-block;
+  border-radius: 10px;
+}
+div.two > div > img {
+  width: 100%;
+  object-fit: contain;
+
+  border-radius: 20px;
+}
+div.pishnehad > h2 {
+  font-family: digifont;
+  text-align: center;
+  margin-bottom: 10px;
+}
+div.pishnehad {
+  margin-bottom: 50px;
+}
+div.pishnehad > div.story2 {
+  width: 100%;
+  height: 150px;
+  background-color: width(219, 236, 232);
+  text-align: center;
+}
+div.pishnehad > div.story2 > div {
+  display: inline-block;
+  height: inherit;
+  width: auto;
+  font-family: digifont;
+  color: #4b4b4b;
+  font-size: 12px;
+  border: 1px solid #f1f2f4;
+  margin-right: -4px;
+}
+div.pishnehad > div.story2 > div > img {
+  width: 90px;
+  height: 90px;
+  margin: 20px 40px 10px 40px;
+}
+div.fourtwo {
+  width: 85vw;
+  height: 420px;
+  margin: 0 auto;
+
+  border-radius: 15px;
+  border: 1px solid #f1f2f4;
+  box-sizing: border-box;
+}
+div.fourtwo > div {
+  width: 25%;
+  margin-left: -4px;
+  height: inherit;
+  border-left: 1px solid #f1f2f4;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+div.fourtwo > div > div {
+  width: 100%;
+  height: 70px;
+  margin: 10px;
+
+  font-family: digifont;
+}
+div.fourtwo > div > div > p {
+  font-size: 12px;
+  word-spacing: 5px;
+  font-weight: 100;
+  color: #9b9b9b;
+}
+div.fourtwo > div > div.up {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+}
+div.fourtwo > div > div.down {
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+}
+div.fourtwo > div > div.down > div.down1 {
+  display: inline-block;
+  margin: 0 4px;
+  height: inherit;
+  width: 48%;
+  border-left: 1px solid #f1f2f4;
+  margin-left: -4px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+div.fourtwo > div > div.down > div.down2 {
+  display: inline-block;
+  margin-left: -4px;
+  height: inherit;
+  box-sizing: border-box;
+  width: 48%;
+  vertical-align: top;
+}
+div.fourtwo > div > div.up > div.up1 {
+  display: inline-block;
+  margin: 0 4px;
+  height: inherit;
+  width: 48%;
+  margin-left: -4px;
+  border-left: 1px solid #f1f2f4;
+  border-bottom: 1px solid #f1f2f4;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+div.fourtwo > div > div.up > div.up2 {
+  display: inline-block;
+  border-bottom: 1px solid #f1f2f4;
+  height: inherit;
+  box-sizing: border-box;
+  width: 48%;
+  vertical-align: top;
+}
+div.fourtwo > div > div.up > div.up1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.fourtwo > div > div.up > div.up2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.fourtwo > div > div.down > div.down1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.fourtwo > div > div.down > div.down2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

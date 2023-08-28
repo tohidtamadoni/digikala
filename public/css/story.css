@@ -1,0 +1,22 @@
+div.story {
+  width: 100%;
+  height: 150px;
+  background-color: width(219, 236, 232);
+  text-align: center;
+}
+div.story > div {
+  display: inline-block;
+  width: auto;
+  font-family: digifont;
+  color: #4b4b4b;
+  font-size: 12px;
+}
+div.story > div > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 20px 40px 10px 40px;
+
+  outline: 2px solid crimson;
+  outline-offset: 4px;
+}
